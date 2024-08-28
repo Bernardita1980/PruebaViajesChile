@@ -1,0 +1,94 @@
+
+
+.Testimonios__img{
+    border-radius: 50%;
+}
+
+.BloqueContacto {
+    width: 100%;
+  }
+
+.CajaTexto{
+    text-wrap: balance;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.BoxCentral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+  
+&__img {
+    width: 50%;
+    height: 60%;
+    display: flex;
+  }
+}
+
+.caja{
+    display: flex;
+    justify-content: space-around;
+
+}
+.CarouselCentral{
+    margin-top: -100px;
+    margin-bottom: 4rem;
+    height:500px;
+    width: 90%;
+}
+
+.TextoLogo{
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+    
+    }
+
+    
+.BoxText__parrafo{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #bebaba;
+    text-align: left;
+}
+
+    #Separacion{
+        margin-top: 35%;
+        }
+
+
+@media (min-width: 300px) and (max-width: 992px){
+.navbar{
+    background-color: transparent!important;
+    display: flex;
+    z-index: 200;
+}
+
+
+.CarouselCentral{
+    margin-top: -150px;
+    margin-bottom: 4rem;
+    height:300px;
+
+
+}
+
+.Separacion{
+    margin-top: 10%;
+    }
+
+.Box__Img {
+    display: none;
+    }     
+}
+

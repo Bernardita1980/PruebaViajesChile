@@ -1,0 +1,151 @@
+/*Base*/
+.BloqueFinalIconos {
+  display: inline;
+  width: 50%;
+  max-height: 100px;
+}
+
+.Destacados {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  margin: 2rem;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px rgb(99, 93, 93) solid;
+}
+
+/*components*/
+.ButtonSubmit {
+  background-color: #ccd1d8;
+  color: #221a1a;
+  padding: 1px 8px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+/*Layout*/
+.navbar {
+  background-color: transparent !important;
+  display: flex;
+  z-index: 99;
+  width: 90%;
+  position: sticky;
+}
+
+/* Pages*/
+.Testimonios {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Testimonios__parrafo {
+  max-width: 80%;
+  font-size: 1rem;
+  text-wrap: balance;
+  font-family: "Raleway", sans-serif;
+  color: rgb(211, 211, 211);
+  text-align: center;
+}
+.Testimonios__img {
+  width: 30%;
+  height: 30%;
+  margin: 20px;
+  border-radius: 50%;
+}
+.Testimonios__Nombre {
+  font-size: 1.2rem;
+  text-wrap: balance;
+  font-family: "Raleway", sans-serif;
+  color: rgb(211, 211, 211);
+  text-align: center;
+}
+
+/*themes*/
+.Testimonios__img {
+  border-radius: 50%;
+}
+
+.BloqueContacto {
+  width: 100%;
+}
+
+.CajaTexto {
+  text-wrap: balance;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.BoxCentral {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+.BoxCentral__img {
+  width: 50%;
+  height: 60%;
+  display: flex;
+}
+
+.caja {
+  display: flex;
+  justify-content: space-around;
+}
+
+.CarouselCentral {
+  margin-top: -100px;
+  margin-bottom: 4rem;
+  height: 500px;
+  width: 90%;
+}
+
+.TextoLogo {
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.BoxText__parrafo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #bebaba;
+  text-align: left;
+}
+
+#Separacion {
+  margin-top: 35%;
+}
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .navbar {
+    background-color: transparent !important;
+    display: flex;
+    z-index: 200;
+  }
+  .CarouselCentral {
+    margin-top: -150px;
+    margin-bottom: 4rem;
+    height: 300px;
+  }
+  .Separacion {
+    margin-top: 10%;
+  }
+  .Box__Img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

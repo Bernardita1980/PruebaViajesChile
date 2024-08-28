@@ -1,0 +1,14 @@
+{
+  "name": "viajespruebam3",
+  "version": "1.0.0",
+  "description": "PruebaM3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernardita",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

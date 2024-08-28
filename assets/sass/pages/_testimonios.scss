@@ -1,0 +1,31 @@
+.Testimonios{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+&__parrafo{
+ max-width: 80%;
+ font-size: 1rem;
+ text-wrap: balance;
+ font-family: "Raleway", sans-serif;
+ color: rgb(211, 211, 211);
+ text-align: center;
+}
+
+&__img{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+&__Nombre{
+    font-size: 1.2rem;
+    text-wrap: balance;
+    font-family: "Raleway", sans-serif;
+    color: rgb(211, 211, 211);
+    text-align: center;
+}
+}  
